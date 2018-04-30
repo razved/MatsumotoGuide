@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Matsumoto Guide</string>
+    <string name="sightseeing_category">Sightseeings</string>
+    <string name="hotel_category">Hotels</string>
+    <string name="title_activity_place">PlaceActivity</string>
+    <string name="description">Description:</string>
+    <string name="sample_description">Matsumoto Castle is one of the most complete and beautiful among Japan\'s original castles. Matsumoto Castle is unique for having both a secondary donjon and a turret adjoined to its main keep. The castle structures, in combination with their characteristic black wainscoting, give off an air of grandeur and poise.</string>
+    <string name="where_it_is">Where it is?</string>
+
+    <string name="sample_business_hours">9am – 9pm (doors close 8pm)</string>
+    <string name="business_hours">Business hours:</string>
+    <string name="sample_description_short">Matsumoto Castle (松本城, Matsumotojō) is one of the most complete and beautiful...</string>
+    <string name="sample_name">Matsumot Castle</string>
+
+</resources>

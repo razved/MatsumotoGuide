@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="image_hight">100dp</dimen>
+    <dimen name="image_width">100dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="description_padding_end">18dp</dimen>
+    <dimen name="description_padding_start">18dp</dimen>
+    <dimen name="whereitis_logo_padding_top">24dp</dimen>
+    <dimen name="whereitis_logo_width">36dp</dimen>
+    <dimen name="whereitis_logo_height">36dp</dimen>
+    <dimen name="name_header_list">20sp</dimen>
+    <dimen name="description_list">12sp</dimen>
+    <dimen name="description_margintop_list">12dp</dimen>
+</resources>
