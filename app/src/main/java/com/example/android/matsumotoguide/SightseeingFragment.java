@@ -23,13 +23,13 @@ import butterknife.Unbinder;
  */
 public class SightseeingFragment extends Fragment {
 
-    @BindView(R.id.list) ListView listView;
+    @BindView(R.id.list)
+    ListView listView;
     private Unbinder unbinder;
 
     public SightseeingFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -53,30 +53,26 @@ public class SightseeingFragment extends Fragment {
                         "dealers and 'dagashi' candy stores to stylish bakeries and designer boutiques, " +
                         "the frog-themed street makes a great place to stroll when seeing the castle.",
                 R.drawable.nawate_street, "geo:36.2344467,137.9673989,17z?q=Nawate Dori "));
-        places.add(new Place("Spa Biwanoyu",
-                "Biwa No Yu is an onsen with more than 400 years of history. " +
-                        "It was founded by the first lord of Matsumoto Castle, Ishikawa, who bathed " +
-                        "at the onsen. The onsen remained a private area maintained by the palace " +
-                        "for many years, and to this day is maintained by an ancestor of Lord Ishikawa.",
-                "9am – 9pm (doors close 8pm)",
-                R.drawable.biwanoyu_spa, "geo:36.266124,137.9891843?q=Biwanoyu"));
-        places.add(new Place("Kaichi Gakko Primary School",
-                "One of the oldest elementary schools in Japan. The school was completed " +
-                        "in 1876 and combines Japan and Western architecture; it operated until " +
-                        "March 1963. It is a Meiji era cultural site. Various instruction materials " +
-                        "and furnishings are on display. The school was reconstructed at its current " +
-                        "location and restored as a museum of education",
-                "8:30am - 4:30pm (doors close 5pm)",
-                R.drawable.kaichi_gakko, "geo:36.2430524,137.9660708,17z?q=Kaichi School Museum"));
-        places.add(new Place("Japan Ukiyo-e Museum",
-                "Japan Ukiyo-e (Ukiyoe) Museum is a print maker's dream, holding the " +
-                        "largest private collection of ukiyo-e (woodblock prints), paintings screens " +
-                        "and old books in the world. The Sakai family has collected more than 100,000 " +
-                        "pieces over several generations. English information is limited, but there " +
-                        "is a pamphlet you can get at the front and the staff are very friendly.",
-                "10am - 5pm (doors close 4:30pm)",
-                R.drawable.ukiyoe_museum, "geo:36.2318727,137.9323625,17z?q=Japan Ukiyo-e Museum"));
-
+        places.add(new Place("Nakamachi District",
+                "During the Edo period (1603-1867) in Japan, Nakamachi Street was located" +
+                        " in the center part of the castle town of Matsumoto City thus denoting its " +
+                        "name: “Naka” – meaning in or center, and “machi” – meaning town. It was" +
+                        " located on the old Zenkoji Kaido, a route connecting Zenkoji Temple to" +
+                        " Nagoya and Kyoto and prospered as the main business district where wholesale " +
+                        "dealers sold their goods (mainly sake brewers and kimono merchants). Many" +
+                        " of the historical buildings found in Nakamachi used to function as storehouses. " +
+                        "These buildings are called kura or dozo and some are more than a 100 years old.",
+                R.drawable.nakamachi_street, "geo:36.233834,137.9695607,17z?q=Nakamachi shopping street promotion association"));
+        places.add(new Place("Agatanomori Park",
+                "Agatanomori Park in Matsumoto, Japan, is very much a local’s park. This" +
+                        " forest park is a great place for families, couples, or people who want " +
+                        "to relax in a peaceful and beautiful park. You’ll see animals, ponds, " +
+                        "waterfalls, old buildings, and tall trees. You can also learn a bit about" +
+                        " Matsumoto history by touring the historical Matsumoto High School building." +
+                        " Although it’s called a “high school,” back in the day the school curriculum" +
+                        " was actually the equivalent to what we consider a college curriculum today," +
+                        " and served as the original location for Shinshu University.",
+                R.drawable.agatanomori, "geo:36.2312858,137.9816192,17z?q=Agata Forest Park"));
 
 
         //create a PlaceAdater (class successor of ArrayAdapter) and fill it by places ArrayList.

@@ -57,6 +57,10 @@ public class PlaceActivity extends AppCompatActivity {
         description.setText(descriptionText);
 
     }
+
+    /**
+     * when you click on Where it is logo, app open other map application with this place
+     */
     @OnClick(R.id.whereitis)
     public void openMap() {
         Uri placeLocation = Uri.parse(locationText);

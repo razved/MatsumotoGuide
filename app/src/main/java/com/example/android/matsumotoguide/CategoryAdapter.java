@@ -8,7 +8,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 public class CategoryAdapter extends FragmentPagerAdapter {
     private Context mContext;
-    final int CATEGORY_COUNT = 2;
+    final int CATEGORY_COUNT = 4;
 
     public CategoryAdapter(Context context, FragmentManager fm) {
         super(fm);
@@ -24,10 +24,13 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         if (position == 0) {
             return new SightseeingFragment();
-        } else {
+        } else if (position == 1) {
             return new HotelFragment();
+        } else if (position == 2){
+            return new MuseumFragment();
+        } else {
+            return new SpaFragment();
         }
-
     }
 
     @Nullable
@@ -35,8 +38,12 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     public CharSequence getPageTitle(int position) {
         if (position == 0) {
             return mContext.getString(R.string.sightseeing_category);
-        } else {
+        } else if (position == 1) {
             return mContext.getString(R.string.hotel_category);
+        } else if (position == 2) {
+            return mContext.getString(R.string.museum_category);
+        } else {
+            return mContext.getString(R.string.spa_category);
         }
     }
 }
