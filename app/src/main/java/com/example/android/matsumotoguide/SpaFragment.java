@@ -10,7 +10,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -38,35 +37,21 @@ public class SpaFragment extends Fragment {
         unbinder = ButterKnife.bind(this, rootView);
 
         final ArrayList<Place> places = new ArrayList<Place>();
-        places.add(new Place("Biwanoyu",
-                "Biwa No Yu is an onsen with more than 400 years of history. " +
-                        "It was founded by the first lord of Matsumoto Castle, Ishikawa, who bathed " +
-                        "at the onsen. The onsen remained a private area maintained by the palace " +
-                        "for many years, and to this day is maintained by an ancestor of Lord Ishikawa.",
-                "9am – 9pm (doors close 8pm)",
-                R.drawable.biwanoyu_spa, "geo:36.266124,137.9891843?q=Biwanoyu"));
-        places.add(new Place("Hot Plaza Asama",
-                "If you need a wash, this is the place, as it’s the easiest to find from " +
-                        "the bus station & opposite the post office, large & uncomplicated. It can " +
-                        "get a bit busy as it is popular with the gray population as a social locus," +
-                        " but the main pools are large & you’ll always find a stool to have a wash. " +
-                        "Loads of room to sit & day dream while you wait for the rest of your party" +
-                        " to surface, vending machines & massage chairs",
-                "10am - 0am (doors close 11pm)",
-                R.drawable.hotplaza_spa, "geo:36.2628454,137.9865075,17z?q=Hot plaza asama onsen"));
-        places.add(new Place("Utsukushigahara",
-                "Rebuilt fairly recently, this little place caters to the local community. " +
-                        "As a result it has a regular clientelle & can give you ‘local’ feel. " +
-                        "There’s a sign on the door saying ‘no drunks’ - actually good advice as a " +
-                        "hot bath with a skinful can seriously damage your health! More of a sento " +
-                        "than an onsen, but clean & cheerful, as well as cheap. Perhaps best to avoid " +
-                        "local ‘rush hour’ - early evening. Your first challenge is to decode the " +
-                        "vending machine that sells tickets just inside the door - tickets which you " +
-                        "then hand over to the lady sitting 4 feet away watching you.",
-                "April - Sept = 6am - 10pm (doors close 9.30pm)\n" +
-                        "Oct - Mar  = 6.30am - 10pm (doors close 9.30pm)\n" +
-                        "Weekends/holidays open from 6am\n",
-                R.drawable.shiroito_spa, "geo:36.246055,137.9966342,17z?q=白糸の湯"));
+        places.add(new Place(getString(R.string.biwanoyu_spa_name),
+                getString(R.string.biwanoyu_spa_description),
+                getString(R.string.biwanoyu_spa_hours),
+                R.drawable.biwanoyu_spa,
+                getString(R.string.biwanoyu_spa_location)));
+        places.add(new Place(getString(R.string.hotplaza_spa_name),
+                getString(R.string.hotplaza_spa_description),
+                getString(R.string.hotplaza_spa_hours),
+                R.drawable.hotplaza_spa,
+                getString(R.string.hotplaza_spa_location)));
+        places.add(new Place(getString(R.string.utsukushigahara_spa_name),
+                getString(R.string.utsukushigahara_spa_description),
+                getString(R.string.utsukushigahara_spa_hours),
+                R.drawable.shiroito_spa,
+                getString(R.string.utsukushigahara_spa_loaction)));
 
         //create a PlaceAdater (class successor of ArrayAdapter) and fill it by places ArrayList.
         PlaceAdapter adapter = new PlaceAdapter(getActivity(), places);
@@ -88,7 +73,6 @@ public class SpaFragment extends Fragment {
         });
 
         return rootView;
-
     }
 
     @Override

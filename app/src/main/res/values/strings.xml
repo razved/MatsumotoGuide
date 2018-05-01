@@ -14,5 +14,151 @@
     <string name="business_hours">Business hours:</string>
     <string name="sample_description_short">Matsumoto Castle (松本城, Matsumotojō) is one of the most complete and beautiful...</string>
     <string name="sample_name">Matsumot Castle</string>
-
+    <string name="matsumoto_castle_name">Matsumoto Castle</string>
+    <string name="matsumoto_castle_description">Matsumoto Castle is one of the most complete and
+        beautiful among Japan\'s original castles.  Matsumoto Castle is unique for having both a secondary
+        donjon and a turret adjoined to its main keep. The castle structures, in combination with
+        their characteristic black wainscoting, give off an air of grandeur and poise.</string>
+    <string name="matsumoto_castle_location">geo:36.238652,137.9667664,17z?q=Matsumoto Castle</string>
+    <string name="nawate_name">Nawate Dori street</string>
+    <string name="nawate_location">geo:36.2344467,137.9673989,17z?q=Nawate Dori</string>
+    <string name="nawate_description">Located 5 minutes on foot from Matsumoto Castle and 10 min
+        from Matsumoto Station, Nawate-dori is a shopping street that gives the feel of the city\'s
+        history as a castle town. Lined with around 50 shops that vary from antique dealers and
+        \'dagashi\' candy stores to stylish bakeries and designer boutiques, the frog-themed street
+        makes a great place to stroll when seeing the castle.</string>
+    <string name="nakamachi_name">Nakamachi District</string>
+    <string name="nakamachi_location">geo:36.233834,137.9695607,17z?q=Nakamachi shopping street promotion association</string>
+    <string name="nakamachi_description">During the Edo period (1603-1867) in Japan, Nakamachi
+        Street was located in the center part of the castle town of Matsumoto City thus denoting its
+        name: \“Naka\” – meaning in or center, and \“machi\” – meaning town. It was located on the old
+        Zenkoji Kaido, a route connecting Zenkoji Temple to Nagoya and Kyoto and prospered as the
+        main business district where wholesale dealers sold their goods (mainly sake brewers and
+        kimono merchants). Many of the historical buildings found in Nakamachi used to function as
+        storehouses. These buildings are called kura or dozo and some are more than a 100 years old.</string>
+    <string name="agatanomori_name">Agatanomori Park</string>
+    <string name="agatanomori_location">geo:36.2312858,137.9816192,17z?q=Agata Forest Park</string>
+    <string name="agatonomori_description">Agatanomori Park in Matsumoto, Japan, is very much a
+        local’s park. This forest park is a great place for families, couples, or people who want
+        to relax in a peaceful and beautiful park. You’ll see animals, ponds, waterfalls, old
+        buildings, and tall trees. You can also learn a bit about Matsumoto history by touring the
+        historical Matsumoto High School building. Although it’s called a \“high school,\” back in
+        the day the school curriculum was actually the equivalent to what we consider a college
+        curriculum today, and served as the original location for Shinshu University."</string>
+    <string name="richmond_hotel_name">Richmond Hotel Matsumoto</string>
+    <string name="richmond_hotel_location">geo:36.2328025,137.9654184,17z?q=Richmond Hotel Matsumoto</string>
+    <string name="richmond_hotel_description">Situated in Matsumoto, just a short walk from Matsumoto
+        Railway Station, the hotel provides 4-star accommodation and free wireless internet. It also
+        offers room service, a beauty centre and massage services. This hotel provides rooms with an
+        en suite bathroom, air conditioning and a TV. Hot drinks can be made with the provided tea
+        and coffee supplies. Richmond Hotel Matsumoto boasts convenient dining options, including
+        Japanese dishes at Isemachi Yobanashi and Japanese food at Ohashi Café Gust. Matsumoto's
+        popular attractions and landmarks are within close proximity to the hotel, with Matsumoto
+        Castle only a short stroll away. Matsumoto Airport is a 25-minute drive away.</string>
+    <string name="dormy_hotel_name">Dormy Inn Matsumoto</string>
+    <string name="dormy_hotel_location">geo:36.2313822,137.9666229,17z?q=Dormy Inn Matsumoto</string>
+    <string name="dormy_hotel_description">Dormy Inn Matsumoto provides a modern setting when in
+        Matsumoto. It also features massage services, a sauna and free Wi-Fi. A 24-hour reception,
+        luggage storage and a laundry service are just some of the convenient services at the hotel.
+        The in-house spa and wellness centre provides a variety of treatments and a chance to relax.
+        The modern rooms at Dormy Inn Matsumoto have air conditioning and offer slippers, tea and
+        coffee making facilities and a refrigerator. They have an en suite bathroom with bathrobes,
+        a hair dryer and a bathtub. Those staying at Dormy Inn Matsumoto can enjoy a unique dining
+        experience at the in-house restaurant, conveniently situated for those who want to stay
+        nearby when looking to sit down to a meal. The hotel is close to Matsumoto Railway Station,
+        making it easy for guests to discover Matsumoto and its surrounding areas. Matsumoto Castle
+        is within walking distance.</string>
+    <string name="aceinn_hotel_name">Ace Inn Matsumoto</string>
+    <string name="aceinn_hotel_location">geo:36.2300698,137.9636495,17z?q=Ace Inn Matsumoto</string>
+    <string name="aceinn_hotel_description">Ace Inn Matsumoto offers 3-star accommodation in
+        Matsumoto. It provides complimentary Wi-Fi, free bicycle rental and off-site parking. Ace
+        Inn features 158 air conditioned rooms equipped with all the necessities to ensure a
+        comfortable stay. After settling in to their room, guests can explore the local area with
+        use of Matsumoto Railway Station, which is within a five-minute walk of the hotel. Those
+        staying at the property can wake up to a satisfying breakfast prepared every morning, before
+        heading out from Ace Inn Matsumoto to discover the surrounding area. Ace Inn is surrounded
+        by the area\'s well-known sightseeing attractions, including Matsumoto Castle, which is a
+        short walk away. The Kaichi School Museum is in close proximity to the property.</string>
+    <string name="premier_hotel_name">Premier Hotel Cabin Matsumoto</string>
+    <string name="premier_hotel_location">geo:36.2306073,137.9639813,17z?q=Premier Hotel Cabin Matsumoto</string>
+    <string name="premier_hotel_description">Premier Hotel Cabin Matsumoto is situated in Matsumoto
+        and is close to the area\'s tourist attractions. It offers complimentary Wi-Fi, massage
+        services and laundry facilities. The hotel has 106 rooms and has been recently refurbished.
+        Welcoming and professional team members are available 24 hours a day. The air conditioned
+        rooms at Premier Hotel Cabin Matsumoto are well-appointed. Each has a bathroom that has a
+        hair dryer and slippers. Serving Japanese dishes, the on-site restaurant features an
+        air-conditioned dining room along with an outdoor terrace. There is also a variety of
+        breakfast options to choose from every day. Premier Hotel Cabin Matsumoto is within walking
+        distance of Matsumoto Castle. The hotel's multilingual staff are available to ensure that
+        every traveller has a comfortable stay.</string>
+    <string name="oiwakeya_name">Oiwakeya Ryokan</string>
+    <string name="oiwakeya_location">geo:36.2454033,137.9961833,17z?q=Oiwakeya</string>
+    <string name="oiwakeya_description">Beautiful Ryokan in a quiet residential area of Matsumoto.
+        The service is excellent, a real Japanese experience. The Ryokan is nicely decorated and
+        there are also Koi fish inside! The room is big with Tatami floor. They have both public and
+        private Onsen, the private is relaxing with external and internal pool. Had a full Kaiseki
+        Dinner, that was good but not the best I had in Japan. The Ryokan is a bit far from the train
+        station, about 10 minutes by cab.</string>
+    <string name="biwanoyu_spa_name">Biwanoyu</string>
+    <string name="biwanoyu_spa_hours">9am – 9pm (doors close 8pm)</string>
+    <string name="biwanoyu_spa_location">geo:36.266124,137.9891843?q=Biwanoyu</string>
+    <string name="biwanoyu_spa_description">Biwa No Yu is an onsen with more than 400 years of history.
+        It was founded by the first lord of Matsumoto Castle, Ishikawa, who bathed at the onsen.
+        The onsen remained a private area maintained by the palace for many years, and to this day
+        is maintained by an ancestor of Lord Ishikawa.</string>
+    <string name="hotplaza_spa_name">Hot Plaza Asama</string>
+    <string name="hotplaza_spa_hours">10am - 0am (doors close 11pm)</string>
+    <string name="hotplaza_spa_location">geo:36.2628454,137.9865075,17z?q=Hot plaza asama onsen</string>
+    <string name="hotplaza_spa_description">If you need a wash, this is the place, as it’s the easiest
+        to find from the bus station opposite the post office, large uncomplicated. It can get
+        a bit busy as it is popular with the gray population as a social locus, but the main pools
+        are large you’ll always find a stool to have a wash. Loads of room to sit day dream while
+        you wait for the rest of your party  to surface, vending machines massage chairs</string>
+    <string name="utsukushigahara_spa_name">Utsukushigahara</string>
+    <string name="utsukushigahara_spa_loaction">geo:36.246055,137.9966342,17z?q=白糸の湯</string>
+    <string name="utsukushigahara_spa_hours">April - Sept = 6am - 10pm (doors close 9.30pm)\n
+        Oct - Mar  = 6.30am - 10pm (doors close 9.30pm)\n
+        Weekends/holidays open from 6am
+    </string>
+    <string name="utsukushigahara_spa_description">Rebuilt fairly recently, this little place caters
+        to the local community. As a result it has a regular clientelle can give you ‘local’ feel.
+        There’s a sign on the door saying ‘no drunks’ - actually good advice as a hot bath with a
+        skinful can seriously damage your health! More of a sento than an onsen, but clean and cheerful,
+        as well as cheap. Perhaps best to avoid local ‘rush hour’ - early evening. Your first
+        challenge is to decode the vending machine that sells tickets just inside the door -
+        tickets which you then hand over to the lady sitting 4 feet away watching you. </string>
+    <string name="kaichi_museum_name">Kaichi Gakko Primary School</string>
+    <string name="kaichi_museum_hours">8:30am - 4:30pm (doors close 5pm)</string>
+    <string name="kaichi_museum_location">geo:36.2430524,137.9660708,17z?q=Kaichi School Museum</string>
+    <string name="kaichi_museum_description">One of the oldest elementary schools in Japan. The
+        school was completed in 1876 and combines Japan and Western architecture; it operated until
+        March 1963. It is a Meiji era cultural site. Various instruction materials and furnishings
+        are on display. The school was reconstructed at its current location and restored as a
+        museum of education</string>
+    <string name="ukiyoe_museum_name">Japan Ukiyo-e Museum</string>
+    <string name="ukiyoe_museum_hours">10am - 5pm (doors close 4:30pm)</string>
+    <string name="ukiyoe_museum_location">geo:36.2318727,137.9323625,17z?q=Japan Ukiyo-e Museum</string>
+    <string name="ukiyoe_museum_descriptions">Japan Ukiyo-e (Ukiyoe) Museum is a print maker\'s dream,
+        holding the largest private collection of ukiyo-e (woodblock prints), paintings screens
+        and old books in the world. The Sakai family has collected more than 100,000 pieces over
+        several generations. English information is limited, but there is a pamphlet you can get at
+        the front and the staff are very friendly.</string>
+    <string name="art_museum_name">Matsumoto City Museum of Art</string>
+    <string name="art_museum_hours">9am - 5pm</string>
+    <string name="art_museum_location">geo:36.231628,137.9743083,17z?q=Matsumotoshi Museum</string>
+    <string name="art_museum_description">the Matsumoto City Museum of Art\’s four fundamental themes
+        are Appreciation, Representation, Learning and Communication. At the entrance is a dynamic
+        outdoor installation by Matsumoto native Yayoi Kusama. Her contemporary art takes viewers
+        to another world with its almost hallucinatory energy.  The museum features works by other
+        Matsumoto artists as well as pieces taking inspiration from the nearby Japanese Alps.</string>
+    <string name="timepiece_museum_name">Matsumoto Timepiece Museum</string>
+    <string name="timepiece_museum_hours">9am - 5pm (doors close 4:30pm)</string>
+    <string name="timepiece_museum_location">geo:36.2337941,137.9664543,17z?q=Matsumotoshi Timepiece Museum</string>
+    <string name="timepiece_museum_description">49th year of the Showa era(1974), Mr.Chikazo Honda
+        donated his old western and Japanese timepiece collection, in which he devoted himself to,
+        hoping many people could enjoy it for a long time. Over the course of time,  some citizens
+        donated more timepieces and enriched the collection, which led  to the opening of Matsumoto
+        Timepiece Museum on September 1st, 2002. The biggest feature of the museum is that many of
+        the timepieces are displayed working.  There are more than 300 timepieces. The museum hopes
+        that it will become a landmark in Matsumoto and every visitor has a wonderful time.</string>
 </resources>
